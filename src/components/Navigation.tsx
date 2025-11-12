@@ -20,7 +20,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <a href="#" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-coral rounded-lg flex items-center justify-center shadow-medium">
               <span className="text-2xl font-bold text-primary-foreground">LZ</span>
             </div>
@@ -30,7 +30,7 @@ const Navigation = () => {
                 Alcohol + Food Law
               </div>
             </div>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">

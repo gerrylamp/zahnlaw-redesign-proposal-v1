@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
+            <a href="#" className="flex items-center space-x-3 mb-4">
               <div className="w-12 h-12 bg-coral rounded-lg flex items-center justify-center shadow-medium">
                 <span className="text-2xl font-bold text-primary-foreground">LZ</span>
               </div>
@@ -19,7 +19,7 @@ const Footer = () => {
                   Alcohol + Food Law
                 </div>
               </div>
-            </div>
+            </a>
             <p className="text-primary-foreground/80 leading-relaxed max-w-md">
               Leading law firm representing wineries, breweries, distilleries, cideries, meaderies,
               and food manufacturers with expert legal guidance.

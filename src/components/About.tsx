@@ -32,8 +32,7 @@ const About = () => {
 
           <div className="mt-12 flex justify-center">
             <a
-              href="#contact"
-              className="inline-flex items-center px-6 py-3 bg-coral text-primary-foreground font-medium rounded-lg hover:bg-coral/90 transition-smooth shadow-medium hover:shadow-large"
+              className="inline-flex items-center px-6 py-3 bg-coral text-primary-foreground font-medium rounded-lg hover:bg-coral/90 transition-smooth shadow-medium hover:shadow-large cursor-pointer"
             >
               Learn More About Our Firm
             </a>

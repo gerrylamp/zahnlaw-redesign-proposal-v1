@@ -43,8 +43,7 @@ const News = () => {
                 </p>
                 
                 <a
-                  href="#"
-                  className="inline-flex items-center text-coral font-semibold hover:gap-3 transition-all group/link"
+                  className="inline-flex items-center text-coral font-semibold hover:gap-3 transition-all group/link cursor-pointer"
                 >
                   Read More
                   <ArrowRight className="ml-2 h-5 w-5 group-hover/link:translate-x-1 transition-transform" />

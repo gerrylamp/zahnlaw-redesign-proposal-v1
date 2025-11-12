@@ -69,7 +69,7 @@ const BusinessSectors = () => {
                 <p className="text-sm text-primary-foreground/90 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   {sector.description}
                 </p>
-                <div className="flex items-center text-coral group-hover:translate-x-2 transition-transform duration-300">
+                <div className="flex items-center text-coral group-hover:translate-x-2 transition-transform duration-300 cursor-pointer">
                   <span className="text-sm font-semibold">Learn More</span>
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </div>
